@@ -1,7 +1,29 @@
 # gulimall
 
-
+<html>
 <body>
+Gulimall is a distributed e-commerce project. SpringBoot 2.1.8.RELEASE was mainly used in the backend and vue was used in the frontend. 
+
+<h2>Technology Stack</h2>
+
+<b>Java</b>
+
+<b>Spring</b>
+
+<b>SpringMvc</b>
+
+<b>Springboot</b>
+
+<b>Mybatis Plus</b>
+
+<b>Mysql</b>
+
+<b>Vue</b>
+
+<b>Node.js</b>
+
+<b>Springcloud ： nacos , openfeign ， gateway, etc.</b>
+
 
 <h2>Module Introduction</h2>
 
