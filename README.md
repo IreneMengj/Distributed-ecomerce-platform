@@ -68,8 +68,8 @@ Gulimall is a distributed e-commerce project. SpringBoot 2.1.8.RELEASE was mainl
   
  <h2>Operation instruction</h2> 
 1. First you need to build a suitable environment to develop the project:<br>
-2. Import RENREN-FAST and RENREN-FAST-VUE from website https://gitee.com/renrenio.<br>
-3. Use comman "npm install" to firstly install the front-end and then use "npm dev run" to run this front-end system.<br>  
+2. Import RENREN-FAST and RENREN-FAST-VUE from website https://gitee.com/renrenio and take mine as reference.<br>
+3. Use command "npm install" to firstly install the front-end and then use "npm dev run" to run this front-end system.<br>  
 4. Build databases and import sql files(waiting for uploading...)<br>
 5. Modify the specific information in each application.yml<br>
 6. Install Nacos and use Nacos as registration and configuration center(you can also use other software)<br>
