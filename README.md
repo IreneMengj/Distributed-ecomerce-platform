@@ -38,7 +38,7 @@ Gulimall is a distributed e-commerce project. SpringBoot 2.1.8.RELEASE was mainl
   </tr>
   <tr>
     <td>gulimall-coupon</td>
-    <td>To provide coupon services</td>
+    <td>To provide product coupon information</td>
   </tr>
   <tr>
     <td>gulimall-gateway</td>
@@ -54,7 +54,7 @@ Gulimall is a distributed e-commerce project. SpringBoot 2.1.8.RELEASE was mainl
   </tr>
   <tr>
     <td>gulimall-product</td>
-    <td>To provide product services</td>
+    <td>add/update/delete products</td>
   </tr>
   <tr>
     <td>gulimall-third-party</td>
