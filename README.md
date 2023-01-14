@@ -92,4 +92,7 @@ Please take my configuration as an example:<br>
   </table>     
 </body>
 </html>
+## development logs(1.14)
+ I noticed that there is one warn showing in the <b><font color="red">product</font></b> service console saying (~~~Skipping MapperFactoryBean with name 'attrAttrgroupRelationDao' and 'com.atguigu.gulimall.product.dao.AttrAttrgroupRelationDao' mapperInterface. Bean already defined with the same name!~~~)
+ At least now it didn't influence my development, I will ignore it temporarily.
 
