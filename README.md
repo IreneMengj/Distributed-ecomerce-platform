@@ -92,7 +92,15 @@ Please take my configuration as an example:<br>
   </table>     
 </body>
 </html>
-## development logs(1.14)
- I noticed that there is one warn showing in the <b><font color="red">product</font></b> service console saying (~~~Skipping MapperFactoryBean with name 'attrAttrgroupRelationDao' and 'com.atguigu.gulimall.product.dao.AttrAttrgroupRelationDao' mapperInterface. Bean already defined with the same name!~~~)
- At least now it didn't influence my development, I will ignore it temporarily.
+<h3> development logs(1.14)
+ I noticed that there is one warn showing in the <b><font color="red">product</font></b> service console saying 
+ (~~~Skipping MapperFactoryBean with name 'attrAttrgroupRelationDao' and 'com.atguigu.gulimall.product.dao.AttrAttrgroupRelationDao' mapperInterface. Bean already defined with the same name!~~~)At least now it didn't influence my development, I will ignore it temporarily.<br>
+  Finally found it was caused by the duplicated use of mapper scan on starter class and @Mapper annotation!!!<br>
 
+ <h4>gulimall - ware 
+   It is corresponding to gulimall_vms database. There are 6 tables in the database. One saves the information of different wares. One saves the stock details in each ware.Two of them are related with order. The left two are to do with purchase details. <br>
+   Firstly, I can't add ware info data. It prompts 500 error. I checked the code of wareInfoController and didn't find anything wrong. I noticed the console showing that there might be a problem in SQL. I finally found that I didn't add get/set methods for wareInfo entity after deleting lombok(there is conflict if I use lombok).<br>
+   
+![image](https://user-images.githubusercontent.com/88880169/212474076-d199c60b-9272-4d06-b998-5b712f980531.png)
+when I developed spu管理 and chose 规格，the page showed 400. After I inserted one SQL"INSERT INTO sys_menu (menu_id, parent_id, name, url, perms, type, icon, order_num) VALUES (76, 37, '规格维护', 'product/attrupdate', '', 2, 'log', 0);" and change type to 1. I can see the content of "规格".<br> ??<b>I still have questions here.</b><br>
+   
