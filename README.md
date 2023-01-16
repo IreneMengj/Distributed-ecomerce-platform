@@ -92,7 +92,7 @@ Please take my configuration as an example:<br>
   </table>     
 </body>
 </html>
-<h3> development logs(1.14)</h3?
+<h3> development logs(1.14)</h3>
  I noticed that there is one warn showing in the <b><font color="red">product</font></b> service console saying 
  (Skipping MapperFactoryBean with name 'attrAttrgroupRelationDao' and 'com.atguigu.gulimall.product.dao.AttrAttrgroupRelationDao' mapperInterface. Bean already defined with the same name!)At least now it didn't influence my development, I will ignore it temporarily.<br>
   Finally found it was caused by the duplicated use of mapper scan on starter class and @Mapper annotation!!!<br>
