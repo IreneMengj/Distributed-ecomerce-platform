@@ -103,4 +103,5 @@ Please take my configuration as an example:<br>
    
 ![image](https://user-images.githubusercontent.com/88880169/212474076-d199c60b-9272-4d06-b998-5b712f980531.png)
 when I developed spu管理 and chose 规格，the page showed 400. After I inserted one SQL"INSERT INTO sys_menu (menu_id, parent_id, name, url, perms, type, icon, order_num) VALUES (76, 37, '规格维护', 'product/attrupdate', '', 2, 'log', 0);" and change type to 1. I can see the content of "规格".<br> ??<b>I still have questions here.</b><br>
-   
+<h3>Development log</h3>
+Today I added one more module(gulimall-search) in gulimall. This module integrated elasticsearch. However, third-party module can't register in nacos suddenly after adding this new module. Actually I have met the this issue when I added third-party module and at that time product module can't be registered in Nacos. I didn't solve it but redid the whole project from the beginning since I couldn't find any solutions. This time I solved it by moving other modules to the same namespace as third-party. Although third-party can't register itself in the public, it can be registered in other namespace. 
