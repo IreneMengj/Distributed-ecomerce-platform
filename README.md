@@ -2,7 +2,7 @@
 
 <html>
 <body>
-Gulimall is a distributed e-commerce project. SpringBoot 2.1.8.RELEASE was mainly used in the backend and vue was used in the frontend. This project will be developed in three phases. Now the first phase has been finished.
+Guli Mall is a distributed e-commerce project. SpringBoot 2.1.8.RELEASE was mainly used in the backend and vue was used in the frontend. This project will be developed in three phases. Now the first phase has been finished.
 
 <h2>Technology Stack</h2>
 
